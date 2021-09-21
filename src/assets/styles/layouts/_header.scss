@@ -1,0 +1,28 @@
+.navbar{
+	box-shadow: #00000029 0 3px 6px;
+
+	.navbar-brand{
+		img{
+			max-width: 100%;
+
+			@include media-breakpoint-up(large){
+				max-width: 395px;
+			}
+		}
+	}
+
+	.nav-link{
+		font-weight: $font-weight-bold;
+
+		@include media-breakpoint-up(large){
+			font-size: 20px;
+		}
+	}
+
+
+	@include media-breakpoint-up(large){
+		.navbar-nav{
+			gap: 30px;
+		}
+	}
+}

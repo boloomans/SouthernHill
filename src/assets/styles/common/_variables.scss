@@ -9,21 +9,31 @@ $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1080px
+  xl: 1440px
 );
 $grid-breakpoints: (
   xs: 0,
   sm: 576px,
   md: 768px,
   lg: 992px,
-  xl: 1260px
+  xl: 1520px
 );
 $theme-colors: (
-  primary: #E42E68,
+  primary: #2DAAE1,
   secondary: #4C5151
 );
 $primary: map-get($map: $theme-colors, $key: "primary");
 $secondary: map-get($map: $theme-colors, $key: "secondary");
 
+// Typography
+$font-family-base: 'Roboto';
+
 // Colors
-$text-color: #4C5151;
+$black:    #000;
+$text-color: #292929;
+$text-color-light: #808183;
+
+// Navbar
+$navbar-light-color:                rgba($text-color-light, 1);
+$navbar-light-hover-color:          rgba($primary, 1);
+$navbar-light-active-color: 				rgba($primary, 1);

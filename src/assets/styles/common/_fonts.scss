@@ -1,9 +1,6 @@
-/* 
- Font mixin usage
+//Font mixin usage
 
-  @include font-face(OpenSans, "../fonts/OpenSans-Light", 300, normal, ttf);
-  @include font-face(OpenSans, "../fonts/OpenSans-Regular", normal, normal, ttf);
-  @include font-face(OpenSans, "../fonts/OpenSans-Medium", 500, normal, ttf);
-  @include font-face(OpenSans, "../fonts/OpenSans-Bold", bold, normal, ttf);
-  
- */
+@include font-face(Roboto, "../fonts/Roboto-Light", 300, normal, ttf);
+@include font-face(Roboto, "../fonts/Roboto-Regular", normal, normal, ttf);
+@include font-face(Roboto, "../fonts/Roboto-Medium", 500, normal, ttf);
+@include font-face(Roboto, "../fonts/Roboto-Bold", bold, normal, ttf);
